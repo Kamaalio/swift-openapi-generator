@@ -44,16 +44,10 @@ let package = Package(
     dependencies: [
 
         // Generate Swift code
-        .package(
-            url: "https://github.com/apple/swift-syntax.git",
-            from: "508.0.1"
-        ),
+        .package(url: "https://github.com/apple/swift-syntax.git", from: "509.0.0-swift-5.9-DEVELOPMENT-SNAPSHOT-2023-04-25-b"),
 
         // Format Swift code
-        .package(
-            url: "https://github.com/apple/swift-format.git",
-            from: "508.0.1"
-        ),
+        .package(url: "https://github.com/Kamaalio/swift-format.git", branch: "main"),
 
         // General algorithms
         .package(
